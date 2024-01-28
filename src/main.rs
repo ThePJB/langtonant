@@ -211,7 +211,7 @@ fn main() {
 
     let mut state = SimState {
         //rule_str: "RL",
-        //rule_str: "LRRRRRLLR", // square one // can make the RRRRR arbitrarily wrong
+        rule_str: "LRRRRRLLR", // square one // can make the RRRRR arbitrarily wrong
         //rule_str: "RRLLLRLLLRRR", // triangle
         //rule_str: "RRLLLRLLLRRRRR", // cool as fuck, one less R cool too
         //rule_str: "RRLLLRLLLRRRRRRRRL", // triangle
@@ -251,7 +251,7 @@ fn main() {
         //rule_str:"RSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSL", // sick crystal thing
         //rule_str:"RSSSSSSSSRRRSS", // sick crystal thing // cool familr
         //rule_str:"RLS", // spaceship
-        rule_str:"RRLRR", //square ratio 4:1?? nah
+        // rule_str:"RRLRR", //square ratio 4:1?? nah
         // rule_str:"RRLRRRRLRRR", // cool augment square a bit, dopuble + extra r
         
         // truncating the series causes noise patches and shit, breaks the structure.
